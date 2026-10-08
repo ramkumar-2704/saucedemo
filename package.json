@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "SauceDemo application Automation using Playwright",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
   "keywords": [],
   "author": "Ramkumar",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
-    "@types/node": "^26.6.3"
+    "@types/node": "^26.6.3",
+    "allure-playwright": "^3.13.0"
   }
 }
